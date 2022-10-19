@@ -1,3 +1,3 @@
-int (2.6)
+b = int (8)
 float(2)
-print (int)
+print (b)
