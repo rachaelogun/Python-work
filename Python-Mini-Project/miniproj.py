@@ -1,38 +1,40 @@
-number1 =float(input ('Enter first number:'))
-number2 = float(input ('Enter second number:'))
-
-total = number1 * number2
-print(total)
-
-newtotal = total + 1100
-print(newtotal)
-
-
-english = 50
-maths = 70
-science = 70
-
-total = english + maths + science
-average = total / 3
-print("Your average score is :")
-print(average)
-
-number1 =float(input ('Enter first number:'))
-number2 = float(input ('Enter second number:'))
-
-if number1 > number2:
-    number1bigger = True
-else:
-    number1bigger = False
-
-print('It is', number1bigger, 'that number1 is bigger.')
 
 password = "test123"
 user = input("Please enter your password: ")
 if password == user:
-  print("Password is correct")
+  print("Welcome Test:")
 else:
-  print("ERROR: Try again")
+    print("hint: name and number")
+    print("ERROR: Try again")
+    user = input("Please enter your password: ")
+
+orderno1 =float(input ('Enter Order number:'))
+orderno2 = float(input ('Enter Order number:'))
+
+total = orderno1 * orderno2
+print(total)
+newtotal = total + 1100
+print(newtotal)
+
+Happy = 100
+Sad = 20
+Normal = 50
+
+emotion = Happy + Sad + Normal
+average = emotion / 3
+print("Your emotion score is :")
+print(average)
+
+orderno3 =float(input ('Enter Order number:'))
+orderno4 = float(input ('Enter Order number:'))
+
+if orderno3 > orderno4:
+    number3bigger = True
+else:
+    number3bigger = False
+
+print('It is', number3bigger, 'that orderno3 is bigger.')
+
 
   #File 1
 
